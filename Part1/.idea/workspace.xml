@@ -38,6 +38,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\a769324\Desktop\Kurs SPARK z UDEMY\SparkInScala\Part1\src\main\scala\originalLectureFiles" />
+      <recent name="C:\Users\a769324\Desktop\Kurs SPARK z UDEMY\SparkInScala\Part1\src\resources\marvelDetails" />
       <recent name="C:\Users\a769324\Desktop\Kurs SPARK z UDEMY\SparkInScala\Part1\src\main\scala\net\atos" />
       <recent name="C:\Users\a769324\Desktop\Kurs SPARK z UDEMY\SparkInScala\Part1\src\main\scala" />
     </key>
@@ -54,13 +55,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SumCustomerOrder">
-    <configuration name="CountWordsExceptStopWord" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="countWords.CountWordsExceptStopWord" />
+  <component name="RunManager" selected="Application.MostPopularSuperhero">
+    <configuration name="BroadcastUse" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="broadcastUseNameMovies.BroadcastUse" />
       <module name="Part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="countWords.*" />
+          <option name="PATTERN" value="broadcastUseNameMovies.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +69,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxWeatherTemp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="net.atos.MaxWeatherTemp" />
+    <configuration name="MostPopMov" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="popularMovies.MostPopMov" />
       <module name="Part1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.atos.*" />
+          <option name="PATTERN" value="popularMovies.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MostPopularSuperhero" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="originalLectureFiles.MostPopularSuperhero" />
+      <module name="Part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="originalLectureFiles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PopularMoviesNicer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="originalLectureFiles.PopularMoviesNicer" />
+      <module name="Part1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="originalLectureFiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,39 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountBetterSorted" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="originalLectureFiles.WordCountBetterSorted" />
-      <module name="Part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="originalLectureFiles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCountingExamp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="countWords.WordCountingExamp" />
-      <module name="Part1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="countWords.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MostPopularSuperhero" />
+        <item itemvalue="Application.BroadcastUse" />
+        <item itemvalue="Application.PopularMoviesNicer" />
+        <item itemvalue="Application.MostPopMov" />
         <item itemvalue="Application.SumCustomerOrder" />
-        <item itemvalue="Application.CountWordsExceptStopWord" />
-        <item itemvalue="Application.WordCountingExamp" />
-        <item itemvalue="Application.WordCountBetterSorted" />
-        <item itemvalue="Application.MaxWeatherTemp" />
       </list>
     </recent_temporary>
   </component>

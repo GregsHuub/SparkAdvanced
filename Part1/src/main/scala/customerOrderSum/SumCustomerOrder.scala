@@ -16,11 +16,14 @@ object SumCustomerOrder {
 
     val rddFile = sc.textFile(FILE_LOCATION)
     val splited: RDD[(Int, Double)] = rddFile.map(splitFile)
-    val totalCustomer: RDD[(Int, (Double, Int))] = splited.mapValues(x => (x,1))reduceByKey((x, y) => (x._1 + y._1, x._2 + y._2))
-    val finalVersion = totalCustomer.mapValues(x => (x._1))
-    val sortedFinalValue = finalVersion.sortBy(_._1)
+    val totalCustomerSimpleSolution = splited.reduceByKey((x,y) => x + y)
+//    val totalCustomer: RDD[(Int, (Double, Int))] = splited
+//    .mapValues(x => (x,1))reduceByKey((x, y) => (x._1 + y._1, x._2 + y._2))
+//    val finalVersion = totalCustomer.mapValues(x => (x._1))
+    val sortByCustomer = totalCustomerSimpleSolution.sortBy(_._1)
+    val sortByAmountSpent = totalCustomerSimpleSolution.sortBy(_._2, false)
 
-    for(list <- sortedFinalValue){
+    for(list <- sortByAmountSpent){
       val id = list._1
       val value = list._2
       println(s"customer: $id = value: $value")
